@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $('form').on('submit', function(){
-
+      console.log('1111');
       var item = $('form input');
       var todo = {item: item.val()};
 

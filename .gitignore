@@ -2,6 +2,9 @@
 Thumbs.db
 ehthumbs.db
 
+# Node module folder
+node_modules/
+
 # Folder config file
 Desktop.ini
 
