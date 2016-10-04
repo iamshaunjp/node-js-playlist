@@ -1,0 +1,25 @@
+{
+  "name": "to-do-list-app",
+  "version": "1.0.0",
+  "description": "my first node app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mzj14@github.com/mzj14/node-js-playlist.git"
+  },
+  "author": "mzj14",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mzj14/node-js-playlist/issues"
+  },
+  "homepage": "https://github.com/mzj14/node-js-playlist#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.2"
+  }
+}
