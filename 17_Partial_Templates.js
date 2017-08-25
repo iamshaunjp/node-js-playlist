@@ -18,5 +18,5 @@ var data = {age: 29, job: 'ninja', hobbies: ['eating', 'fighting', 'fishing']};
 res.render('profile', {person: req.params.name, data: data});
 //now let's go to profile.ejs and output those data
 });
-
+//bla bla
 app.listen(3000);
