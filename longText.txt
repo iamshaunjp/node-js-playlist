@@ -1,0 +1,8 @@
+Package management[edit]
+npm is the pre-installed package manager for the Node.js server platform. It is use
+d to install Node.js programs from the npm registry, organizing the installation an
+d management of third-party Node.js programs. npm is not to be confused with the Co
+mmonJS require() statement. It is not used to load code; instead, it is used to ins
+tall code and manage code dependencies from the command line. The packages found in
+ the npm registry can range from simple helper libraries like Lodash to task runner
+s like Grunt.
