@@ -1,0 +1,27 @@
+{
+  "name": "node-js-playlist",
+  "version": "1.0.0",
+  "description": "Tutorials from The Net Ninja on youtube.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshaunjp/node-js-playlist.git"
+  },
+  "keywords": [
+    "tutorials",
+    "node.js."
+  ],
+  "author": "The Net Ninja.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamshaunjp/node-js-playlist/issues"
+  },
+  "homepage": "https://github.com/iamshaunjp/node-js-playlist#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  }
+}
