@@ -1,0 +1,23 @@
+{
+  "name": "js-playlist",
+  "version": "1.0.0",
+  "description": "A little todo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshaunjp/node-js-playlist.git"
+  },
+  "author": "Abe TRS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamshaunjp/node-js-playlist/issues"
+  },
+  "homepage": "https://github.com/iamshaunjp/node-js-playlist#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
