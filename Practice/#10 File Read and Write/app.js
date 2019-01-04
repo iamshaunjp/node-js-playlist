@@ -9,3 +9,5 @@ console.log(sample);
 
 // this line of code creates an another file output.txt and writes the data in sample into the log.
 fs.writeFileSync('output.txt',sample);
+
+console.js('your website is now awesome');
