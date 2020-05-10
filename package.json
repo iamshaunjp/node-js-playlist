@@ -1,0 +1,24 @@
+{
+  "name": "js-playlist",
+  "version": "1.0.0",
+  "description": "todo app using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PulsaraSandeepa/node-js-playlist.git"
+  },
+  "author": "Pulsara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PulsaraSandeepa/node-js-playlist/issues"
+  },
+  "homepage": "https://github.com/PulsaraSandeepa/node-js-playlist#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.2",
+    "mongoose": "^5.9.13"
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <link href="/assets/styles.css" rel ="stylesheet" type="text/css"/>
+  <script src="/assets/todo-list.js"></script>
+</head>
+<body>
+    <h1>My Todo List</h1>
+    <div id = "todo-table">
+
+        <form>
+            <input type="text" name= "item" placeholder="Add New item..." required/>
+            <button type="submit">Add Item</button>
+        </form>
+        <ul>
+           <% for( var i =0 ; i < todos.length ; i++){ %>
+            <li><%= todos[i].item %></li>
+          <% } %>
+        </ul>
+    </div>
+</body>
+</html>
